@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f234a776c4736c44196c9be130213f8c
+guid: 4427a69956b65bb4bab1d2ed5c15c9e2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,97 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run_0
+      name: FallAttack_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1
-        width: 23
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dabb8a1883a91447a2213bf3c40f6ba
-      internalID: 1627538512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_1
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 1
-        width: 28
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb19b98201aa35e4e89667c6c0ca0f8c
-      internalID: -1496790087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_2
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 0
-        width: 30
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d61d0b48f1759204287c115951696fcf
-      internalID: 814309369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_3
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 1
-        width: 30
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 689abe04f5104124b8051016b1d85219
-      internalID: -215240891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_4
-      rect:
-        serializedVersion: 2
-        x: 173
+        x: 3
         y: 1
         width: 31
-        height: 25
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d1221d94c5a94046b34a728a5129fde
-      internalID: 1788194554
+      spriteID: cd482f282c5fae447997c10ef10eb1ea
+      internalID: 1409014802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_5
+      name: FallAttack_1
       rect:
         serializedVersion: 2
-        x: 215
-        y: 0
-        width: 29
-        height: 24
+        x: 45
+        y: 1
+        width: 28
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +145,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fe4920444c71ba4fb20b85a1fe70689
-      internalID: -1021965223
+      spriteID: 5719855b760820a4b8624a2778a8c5a0
+      internalID: 1938391958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallAttack_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1551abd400ba00443862b4fd0a1c689a
+      internalID: -1501426670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallAttack_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c058425f2ad63f44a08b26bb93f0d14
+      internalID: -1286419429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallAttack_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68777c4bad520d648a58cc6d326dc29f
+      internalID: 783344543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallAttack_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab0d3e07857d1f4aa8a442212683f6c
+      internalID: 365508239
       vertices: []
       indices: 
       edges: []
@@ -246,12 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run_0: 1627538512
-      Run_1: -1496790087
-      Run_2: 814309369
-      Run_3: -215240891
-      Run_4: 1788194554
-      Run_5: -1021965223
+      FallAttack_0: 1409014802
+      FallAttack_1: 1938391958
+      FallAttack_2: -1501426670
+      FallAttack_3: -1286419429
+      FallAttack_4: 783344543
+      FallAttack_5: 365508239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

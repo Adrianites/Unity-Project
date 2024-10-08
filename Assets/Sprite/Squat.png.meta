@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f234a776c4736c44196c9be130213f8c
+guid: b6fed1a07e6c50c46b92ac70baffa5e9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,97 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run_0
+      name: Squat_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1
-        width: 23
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dabb8a1883a91447a2213bf3c40f6ba
-      internalID: 1627538512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_1
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 1
-        width: 28
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb19b98201aa35e4e89667c6c0ca0f8c
-      internalID: -1496790087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_2
-      rect:
-        serializedVersion: 2
-        x: 89
+        x: 3
         y: 0
-        width: 30
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d61d0b48f1759204287c115951696fcf
-      internalID: 814309369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_3
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 1
-        width: 30
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 689abe04f5104124b8051016b1d85219
-      internalID: -215240891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_4
-      rect:
-        serializedVersion: 2
-        x: 173
-        y: 1
         width: 31
-        height: 25
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d1221d94c5a94046b34a728a5129fde
-      internalID: 1788194554
+      spriteID: 612d115bffe81f9479fcf9a534ea1a3b
+      internalID: 862506097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_5
+      name: Squat_1
       rect:
         serializedVersion: 2
-        x: 215
+        x: 48
         y: 0
         width: 29
-        height: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +145,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fe4920444c71ba4fb20b85a1fe70689
-      internalID: -1021965223
+      spriteID: f8d90a8b34770a8498a96e28599d3618
+      internalID: 1484536672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squat_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f935400dae8f734196599ec0b5dc280
+      internalID: 2067634808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squat_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db3dba1195f2f14281e031cefc64793
+      internalID: -221624668
       vertices: []
       indices: 
       edges: []
@@ -246,12 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run_0: 1627538512
-      Run_1: -1496790087
-      Run_2: 814309369
-      Run_3: -215240891
-      Run_4: 1788194554
-      Run_5: -1021965223
+      Squat_0: 862506097
+      Squat_1: 1484536672
+      Squat_2: 2067634808
+      Squat_3: -221624668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

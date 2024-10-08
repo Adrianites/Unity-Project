@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f234a776c4736c44196c9be130213f8c
+guid: bc89f04d11ff5334f9290c139539f19c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,55 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run_0
+      name: JumpAttack_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1
-        width: 23
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dabb8a1883a91447a2213bf3c40f6ba
-      internalID: 1627538512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_1
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 1
-        width: 28
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb19b98201aa35e4e89667c6c0ca0f8c
-      internalID: -1496790087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_2
-      rect:
-        serializedVersion: 2
-        x: 89
+        x: 4
         y: 0
         width: 30
-        height: 24
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d61d0b48f1759204287c115951696fcf
-      internalID: 814309369
+      spriteID: a1aeaaef32d0d3d43a699c82c62cac78
+      internalID: 1476174698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_3
+      name: JumpAttack_1
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1
-        width: 30
-        height: 25
+        x: 46
+        y: 0
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +145,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 689abe04f5104124b8051016b1d85219
-      internalID: -215240891
+      spriteID: 0e46175a5f01cb24f90675c5fd9203f6
+      internalID: 1127114729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_4
+      name: JumpAttack_2
       rect:
         serializedVersion: 2
-        x: 173
-        y: 1
+        x: 88
+        y: 0
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdb1365bc66349459ac87aa894a24db
+      internalID: 926142599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpAttack_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f94803635ebb814fa4b445c5bc0384e
+      internalID: 139500584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpAttack_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a935a689bc225e41a601bae5230033d
+      internalID: -1835490876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpAttack_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
         width: 31
-        height: 25
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,29 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d1221d94c5a94046b34a728a5129fde
-      internalID: 1788194554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_5
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 0
-        width: 29
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fe4920444c71ba4fb20b85a1fe70689
-      internalID: -1021965223
+      spriteID: c6595a7a47ca1fa45b845b0611a8413f
+      internalID: 244466856
       vertices: []
       indices: 
       edges: []
@@ -246,12 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run_0: 1627538512
-      Run_1: -1496790087
-      Run_2: 814309369
-      Run_3: -215240891
-      Run_4: 1788194554
-      Run_5: -1021965223
+      JumpAttack_0: 1476174698
+      JumpAttack_1: 1127114729
+      JumpAttack_2: 926142599
+      JumpAttack_3: 139500584
+      JumpAttack_4: -1835490876
+      JumpAttack_5: 244466856
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

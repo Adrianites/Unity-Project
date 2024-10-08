@@ -50,17 +50,17 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("IsWalking", false);
         }
 
-        if (Move != 0 && IsHoldingShift)
+        if (Move != 0 && Input.GetButtonDown("Fire3"))
         {
             anim.SetBool("IsRunning", true);
-            float Speed = RunningSpeed;
             anim.SetBool("IsWalking", false);
+            float Speed = RunningSpeed;
         }
         else
         {
              anim.SetBool("IsRunning", false);
-             float Speed = WalkingSpeed;
              anim.SetBool("IsWalking", true);
+             float Speed = WalkingSpeed;
         }
 
         

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1cd89895303f6dc4fa42c1fdc699988c
+guid: bed2d8fd5eb13db4f8c6c4efa6d8b226
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 42
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,10 +113,10 @@ TextureImporter:
       name: Hurt_0
       rect:
         serializedVersion: 2
-        x: 32
+        x: 3
         y: 0
-        width: 64
-        height: 64
+        width: 31
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3054ee190ae3ea04cb9118be78b99c67
-      internalID: 1541108796
+      spriteID: b575a7197a8f7c641b5c67cc497aa975
+      internalID: -835565887
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: Hurt_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 45
         y: 0
-        width: 64
-        height: 64
+        width: 31
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 903b978429520e04d93fe6043dd4bde2
-      internalID: -538132419
+      spriteID: fd018e8339cc74d4591f7073cf471ecc
+      internalID: -126038099
       vertices: []
       indices: 
       edges: []
@@ -155,10 +155,10 @@ TextureImporter:
       name: Hurt_2
       rect:
         serializedVersion: 2
-        x: 288
+        x: 87
         y: 0
-        width: 64
-        height: 64
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +166,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c2d7de2fd178df479e158d0d8010b6c
-      internalID: 1708450259
+      spriteID: 56e250b76380b6f40aa4324936e83ad0
+      internalID: -403227668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0976035978155374cb1ed2b6855619f5
+      internalID: -2081897677
       vertices: []
       indices: 
       edges: []
@@ -183,9 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hurt_0: 1541108796
-      Hurt_1: -538132419
-      Hurt_2: 1708450259
+      Hurt_0: -835565887
+      Hurt_1: -126038099
+      Hurt_2: -403227668
+      Hurt_3: -2081897677
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

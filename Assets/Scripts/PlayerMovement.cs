@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -9,7 +10,6 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
 
     private float Move;
-    public bool IsHoldingShift;
     public float RunningSpeed;
     public float WalkingSpeed;
     public float Jump;
@@ -38,33 +38,31 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && IsGrounded())  // Check if the player is grounded before jumping
         {
+            anim.SetBool("Jumping", true);
             rb.AddForce(new Vector2(rb.velocity.x, Jump * 10));
         }
-
-        if(Move != 0)
+        else
         {
-            anim.SetBool("IsWalking", true);
+            anim.SetBool("Jumping", false);
+        }
+
+
+        if(Move != 0 && Input.GetButtonDown("Fire3"))
+        {
+           anim.SetInteger("MovementState", 2);     //MovementState 0 = Idle, 1 = Walking, 2 = Running
+           float Speed = RunningSpeed;
+        }
+        else if(Move != 0)
+        {
+             anim.SetInteger("MovementState", 1);   
+             float Speed = WalkingSpeed; 
         }
         else
         {
-            anim.SetBool("IsWalking", false);
+            anim.SetInteger("MovementState", 0);
+            float Speed = WalkingSpeed;
         }
-
-        if (Move != 0 && Input.GetButtonDown("Fire3"))
-        {
-            anim.SetBool("IsRunning", true);
-            anim.SetBool("IsWalking", false);
-            float Speed = RunningSpeed;
-        }
-        else
-        {
-             anim.SetBool("IsRunning", false);
-             anim.SetBool("IsWalking", true);
-             float Speed = WalkingSpeed;
-        }
-
         
-
     }
 
 
